@@ -1,0 +1,19 @@
+# Dataset and trained models
+data/
+outputs/*.joblib
+
+# Python
+__pycache__/
+*.pyc
+
+# Frontend dependencies and build
+frontend/node_modules/
+frontend/dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
